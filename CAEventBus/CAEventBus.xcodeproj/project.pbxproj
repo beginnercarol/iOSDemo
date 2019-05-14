@@ -14,6 +14,10 @@
 		F1106F8A226F3FA9002B0E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1106F88226F3FA9002B0E26 /* LaunchScreen.storyboard */; };
 		F1106F95226F3FA9002B0E26 /* CAEventBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1106F94226F3FA9002B0E26 /* CAEventBusTests.swift */; };
 		F1106FA0226F3FA9002B0E26 /* CAEventBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1106F9F226F3FA9002B0E26 /* CAEventBusUITests.swift */; };
+		F1106FAE226F4040002B0E26 /* CAEventProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1106FAD226F4040002B0E26 /* CAEventProtocol.swift */; };
+		F1106FB2226F41F6002B0E26 /* CAEventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1106FB1226F41F6002B0E26 /* CAEventBus.swift */; };
+		F1106FB42270044D002B0E26 /* Notification+CAEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1106FB32270044D002B0E26 /* Notification+CAEvent.swift */; };
+		F1106FB6227054D1002B0E26 /* CAEventToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1106FB5227054D1002B0E26 /* CAEventToken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		F1106F9B226F3FA9002B0E26 /* CAEventBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAEventBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1106F9F226F3FA9002B0E26 /* CAEventBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAEventBusUITests.swift; sourceTree = "<group>"; };
 		F1106FA1226F3FA9002B0E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1106FAD226F4040002B0E26 /* CAEventProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAEventProtocol.swift; sourceTree = "<group>"; };
+		F1106FB1226F41F6002B0E26 /* CAEventBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAEventBus.swift; sourceTree = "<group>"; };
+		F1106FB32270044D002B0E26 /* Notification+CAEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+CAEvent.swift"; sourceTree = "<group>"; };
+		F1106FB5227054D1002B0E26 /* CAEventToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAEventToken.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				F1106F7F226F3FA7002B0E26 /* AppDelegate.swift */,
+				F1106FAD226F4040002B0E26 /* CAEventProtocol.swift */,
+				F1106FB32270044D002B0E26 /* Notification+CAEvent.swift */,
 				F1106F81226F3FA7002B0E26 /* ViewController.swift */,
+				F1106FB5227054D1002B0E26 /* CAEventToken.swift */,
+				F1106FB1226F41F6002B0E26 /* CAEventBus.swift */,
 				F1106F83226F3FA7002B0E26 /* Main.storyboard */,
 				F1106F86226F3FA9002B0E26 /* Assets.xcassets */,
 				F1106F88226F3FA9002B0E26 /* LaunchScreen.storyboard */,
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1106FB2226F41F6002B0E26 /* CAEventBus.swift in Sources */,
+				F1106FB42270044D002B0E26 /* Notification+CAEvent.swift in Sources */,
+				F1106FAE226F4040002B0E26 /* CAEventProtocol.swift in Sources */,
 				F1106F82226F3FA7002B0E26 /* ViewController.swift in Sources */,
+				F1106FB6227054D1002B0E26 /* CAEventToken.swift in Sources */,
 				F1106F80226F3FA7002B0E26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

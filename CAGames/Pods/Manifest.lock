@@ -1,0 +1,20 @@
+PODS:
+  - Dollar (8.0.0)
+  - SnapKit (5.0.0)
+
+DEPENDENCIES:
+  - Dollar
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Dollar
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Dollar: 82581ff2e4e80b26ba11fad5ac7e638892522ca5
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+
+PODFILE CHECKSUM: 4c38c98e70423edb9be87e568d9645da47d6e064
+
+COCOAPODS: 1.5.3
