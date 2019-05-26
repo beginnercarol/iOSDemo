@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		86D69D63DBCADC917700EFD0 /* Pods_CAGames.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBDE58CB122C43B884909F7 /* Pods_CAGames.framework */; };
 		ED0CE710201DC2155AADD8B1 /* Pods_CAGamesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F17C7FDF40D88DCAC115EF /* Pods_CAGamesUITests.framework */; };
+		F107E104228FF824000CF0EB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F107E103228FF824000CF0EB /* CameraViewController.swift */; };
 		F11A24682280251500627653 /* PlayingCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A24672280251500627653 /* PlayingCardViewController.swift */; };
 		F11A246A22802A4F00627653 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A246922802A4F00627653 /* PlayingCard.swift */; };
 		F11A246C22806A9800627653 /* PlayingCardGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A246B22806A9800627653 /* PlayingCardGameModel.swift */; };
-		F11A2470228079BA00627653 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A246F228079BA00627653 /* PlayingCardView.swift */; };
+		F13E9C5D228FFED10054C121 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E9C5C228FFED10054C121 /* CameraPreview.swift */; };
+		F13E9C612290F6800054C121 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E9C602290F6800054C121 /* PlayingCardView.swift */; };
+		F13E9C63229684230054C121 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E9C62229684230054C121 /* CoreImage.framework */; };
+		F13E9C652296842B0054C121 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E9C642296842B0054C121 /* AVFoundation.framework */; };
+		F13E9C67229684320054C121 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E9C66229684320054C121 /* OpenGLES.framework */; };
+		F13E9C69229785340054C121 /* CameraFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E9C68229785340054C121 /* CameraFocusView.swift */; };
+		F13E9C6B2298E48A0054C121 /* FilterCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E9C6A2298E48A0054C121 /* FilterCollectionVC.swift */; };
+		F13E9C6D2298E7FC0054C121 /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E9C6C2298E7FC0054C121 /* FilterCollectionViewCell.swift */; };
+		F13E9C70229A37CB0054C121 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E9C6F229A37CB0054C121 /* Vertex.swift */; };
 		F1451A862271E27800C08B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1451A852271E27800C08B88 /* AppDelegate.swift */; };
 		F1451A882271E27800C08B88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1451A872271E27800C08B88 /* ViewController.swift */; };
 		F1451A8B2271E27800C08B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1451A892271E27800C08B88 /* Main.storyboard */; };
@@ -76,10 +85,19 @@
 		402DDC300700662CCCFFB526 /* Pods-CAGames.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAGames.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAGames/Pods-CAGames.debug.xcconfig"; sourceTree = "<group>"; };
 		51F17C7FDF40D88DCAC115EF /* Pods_CAGamesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAGamesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B018B0330AD66F5A997484A /* Pods_CAGamesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAGamesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F107E103228FF824000CF0EB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F11A24672280251500627653 /* PlayingCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardViewController.swift; sourceTree = "<group>"; };
 		F11A246922802A4F00627653 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		F11A246B22806A9800627653 /* PlayingCardGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardGameModel.swift; sourceTree = "<group>"; };
-		F11A246F228079BA00627653 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayingCardView.swift; path = "/Users/carol/iOSDemo/CAGames/CAGames/Playing Card/PlayingCardView.swift"; sourceTree = "<absolute>"; };
+		F13E9C5C228FFED10054C121 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		F13E9C602290F6800054C121 /* PlayingCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
+		F13E9C62229684230054C121 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F13E9C642296842B0054C121 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F13E9C66229684320054C121 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F13E9C68229785340054C121 /* CameraFocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFocusView.swift; sourceTree = "<group>"; };
+		F13E9C6A2298E48A0054C121 /* FilterCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionVC.swift; sourceTree = "<group>"; };
+		F13E9C6C2298E7FC0054C121 /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		F13E9C6F229A37CB0054C121 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 		F1451A822271E27800C08B88 /* CAGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1451A852271E27800C08B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1451A872271E27800C08B88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +144,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13E9C67229684320054C121 /* OpenGLES.framework in Frameworks */,
+				F13E9C652296842B0054C121 /* AVFoundation.framework in Frameworks */,
+				F13E9C63229684230054C121 /* CoreImage.framework in Frameworks */,
 				86D69D63DBCADC917700EFD0 /* Pods_CAGames.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +173,9 @@
 		21C80A2C2CA1AF8A57E10A75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F13E9C66229684320054C121 /* OpenGLES.framework */,
+				F13E9C642296842B0054C121 /* AVFoundation.framework */,
+				F13E9C62229684230054C121 /* CoreImage.framework */,
 				3BBDE58CB122C43B884909F7 /* Pods_CAGames.framework */,
 				5B018B0330AD66F5A997484A /* Pods_CAGamesTests.framework */,
 				51F17C7FDF40D88DCAC115EF /* Pods_CAGamesUITests.framework */,
@@ -172,15 +196,36 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F107E102228FF7F3000CF0EB /* CameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F13E9C6E229A375A0054C121 /* OpenGL Related */,
+				F107E103228FF824000CF0EB /* CameraViewController.swift */,
+				F13E9C68229785340054C121 /* CameraFocusView.swift */,
+				F13E9C5C228FFED10054C121 /* CameraPreview.swift */,
+				F13E9C6A2298E48A0054C121 /* FilterCollectionVC.swift */,
+				F13E9C6C2298E7FC0054C121 /* FilterCollectionViewCell.swift */,
+			);
+			path = CameraDemo;
+			sourceTree = "<group>";
+		};
 		F11A2466228024CF00627653 /* Playing Card */ = {
 			isa = PBXGroup;
 			children = (
 				F11A24672280251500627653 /* PlayingCardViewController.swift */,
 				F11A246B22806A9800627653 /* PlayingCardGameModel.swift */,
 				F11A246922802A4F00627653 /* PlayingCard.swift */,
-				F11A246F228079BA00627653 /* PlayingCardView.swift */,
+				F13E9C602290F6800054C121 /* PlayingCardView.swift */,
 			);
 			path = "Playing Card";
+			sourceTree = "<group>";
+		};
+		F13E9C6E229A375A0054C121 /* OpenGL Related */ = {
+			isa = PBXGroup;
+			children = (
+				F13E9C6F229A37CB0054C121 /* Vertex.swift */,
+			);
+			path = "OpenGL Related";
 			sourceTree = "<group>";
 		};
 		F1451A792271E27800C08B88 = {
@@ -208,6 +253,7 @@
 		F1451A842271E27800C08B88 /* CAGames */ = {
 			isa = PBXGroup;
 			children = (
+				F107E102228FF7F3000CF0EB /* CameraDemo */,
 				F157B5BB2285D3830059846C /* Flappy */,
 				F157B5B822829D980059846C /* Demo Runloop */,
 				F157B5B522817E3B0059846C /* Flip Demo */,
@@ -540,16 +586,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11A246C22806A9800627653 /* PlayingCardGameModel.swift in Sources */,
-				F11A2470228079BA00627653 /* PlayingCardView.swift in Sources */,
 				F1451A882271E27800C08B88 /* ViewController.swift in Sources */,
 				F157B5BA22829DB00059846C /* DemoRunloopViewController.swift in Sources */,
 				F18CFC402272D0BA008289EB /* EmojiArt.swift in Sources */,
 				F18CFC472273F0CF008289EB /* GameModel.swift in Sources */,
 				F1451AB52271E2D000C08B88 /* EmojiArtViewController.swift in Sources */,
 				F11A24682280251500627653 /* PlayingCardViewController.swift in Sources */,
+				F13E9C612290F6800054C121 /* PlayingCardView.swift in Sources */,
 				F18CFC4F2277F7DF008289EB /* ForeGroundTileView.swift in Sources */,
 				F18CFC56227D71F9008289EB /* LastCircleGameModel.swift in Sources */,
 				F18CFC54227D6862008289EB /* Circle.swift in Sources */,
+				F13E9C6D2298E7FC0054C121 /* FilterCollectionViewCell.swift in Sources */,
+				F13E9C5D228FFED10054C121 /* CameraPreview.swift in Sources */,
+				F107E104228FF824000CF0EB /* CameraViewController.swift in Sources */,
 				F11A246A22802A4F00627653 /* PlayingCard.swift in Sources */,
 				F18CFC4B227573B0008289EB /* MovableTile.swift in Sources */,
 				F1451A862271E27800C08B88 /* AppDelegate.swift in Sources */,
@@ -559,6 +608,8 @@
 				F157B5C322865B170059846C /* FlappyGameModel.swift in Sources */,
 				F157B5BF228659130059846C /* FlappyBird.swift in Sources */,
 				F18CFC5C227E85C0008289EB /* LastCircleStartViewController.swift in Sources */,
+				F13E9C70229A37CB0054C121 /* Vertex.swift in Sources */,
+				F13E9C6B2298E48A0054C121 /* FilterCollectionVC.swift in Sources */,
 				F18CFC5E227ECA6F008289EB /* LastCircleAnimator.swift in Sources */,
 				F18CFC58227E7482008289EB /* CircleView.swift in Sources */,
 				F157B5B722817E530059846C /* FlipViewController.swift in Sources */,
@@ -569,6 +620,7 @@
 				F157B5C5228660170059846C /* Utility.swift in Sources */,
 				F18CFC492274029C008289EB /* MoveCommand.swift in Sources */,
 				F157B5BD2285D3950059846C /* FlappyViewController.swift in Sources */,
+				F13E9C69229785340054C121 /* CameraFocusView.swift in Sources */,
 				F18CFC4D22759F4B008289EB /* TileView.swift in Sources */,
 				F18CFC432272E1D3008289EB /* CASquareViewController.swift in Sources */,
 			);

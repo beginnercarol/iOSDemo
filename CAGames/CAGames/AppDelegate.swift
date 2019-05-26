@@ -22,7 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let CA2048VC = CASquareViewController()
         CA2048VC.tabBarItem = UITabBarItem(title: "2048", image: nil, selectedImage: nil)
         let lastCircleVC = LastCircleStartViewController()
-//            LastCircleViewController()
         lastCircleVC.tabBarItem = UITabBarItem(title: "Circle", image: nil, selectedImage: nil)
         
         let concentrationVC = PlayingCardViewController()
@@ -35,7 +34,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let flappyBirdVC = FlappyViewController()
         flappyBirdVC.tabBarItem = UITabBarItem(title: "FlappyBird", image: nil, selectedImage: nil)
         
-        tabbarVC.viewControllers = [flappyBirdVC]
+        let cameraVC = CameraViewController()
+        cameraVC.tabBarItem = UITabBarItem(title: "Camera", image: nil, selectedImage: nil)
+        
+        tabbarVC.viewControllers = [cameraVC]
         window?.rootViewController = tabbarVC
         window?.makeKeyAndVisible()
         return true

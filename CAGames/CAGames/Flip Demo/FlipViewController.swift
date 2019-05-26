@@ -60,7 +60,6 @@ class FlipViewController: UIViewController {
         animation.toValue = NSValue(cgPoint: CGPoint(x: 400, y: 400))
         animation.repeatCount = MAXFLOAT
         animation.beginTime = CACurrentMediaTime() + 1
-        
         view.layer.add(animation, forKey: nil)
     }
     

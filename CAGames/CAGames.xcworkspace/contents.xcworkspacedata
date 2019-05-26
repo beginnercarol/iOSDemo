@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/carol/iOSDemo/CAGames/CAGames/Playing Card/PlayingCardView.swift">
-   </FileRef>
-   <FileRef
       location = "group:CAGames.xcodeproj">
    </FileRef>
    <FileRef
