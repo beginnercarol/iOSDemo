@@ -59,7 +59,19 @@ class CameraViewController: UIViewController {
         setupView()
 //        setupCollectionView()
         setupCamera()
+        
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        if self.eaglContext != EAGLContext.current() {
+            EAGLContext.setCurrent(self.eaglContext)
+        }
+        
+        self.eaglContext = nil
+        EAGLContext.setCurrent(nil)
+    }
+    
     
     func setupCollectionView() {
         let layout = UICollectionViewFlowLayout()
@@ -99,6 +111,10 @@ class CameraViewController: UIViewController {
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(focusGesture(_:)))
         tapGestureRecognizer.numberOfTapsRequired = 1
         self.videoPreview.addGestureRecognizer(tapGestureRecognizer)
+        
+        let panGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(trackMovement(_:)))
+        panGestureRecognizer.minimumNumberOfTouches = 1
+        
     }
     
     @objc func takePhoto(_ sender: UIButton) {
@@ -132,6 +148,9 @@ class CameraViewController: UIViewController {
     
     @objc func changeFilterValue(_ sender: UISlider) {
         
+    }
+    @objc func trackMovement(_ sender: UIPanGestureRecognizer) {
+        self.trackUserMovement()
     }
 
     override var shouldAutorotate: Bool {
@@ -183,6 +202,24 @@ class CameraViewController: UIViewController {
         self.videoOutput.setSampleBufferDelegate(self, queue: self.videoCaptureSessionQueue)
         session.commitConfiguration()
         session.startRunning()
+    }
+    
+    func setupTexture() {
+        createSquare()
+        var effect = GLKBaseEffect()
+        
+        if let cgImg = UIImage(named: "eggCake")?.cgImage, let textureInfo = try? GLKTextureLoader.texture(with: cgImg, options: nil) {
+            effect.texture2d0.name = textureInfo.name
+            effect.texture2d1.target = GLKTextureTarget(rawValue: textureInfo.target)!
+        }
+        
+        effect.prepareToDraw()
+        glBindVertexArrayOES(vao);
+        glDrawElements(GLenum(GL_TRIANGLES),     // 1
+            GLsizei(Indices.count),   // 2
+            GLenum(GL_UNSIGNED_BYTE), // 3
+            nil)                      // 4
+        glBindVertexArrayOES(0)
     }
 
     func chooseDevice() -> AVCaptureDevice? {
@@ -254,7 +291,10 @@ class CameraViewController: UIViewController {
         }
     }
     
-    
+    // MARK: - UserMovement
+    func trackUserMovement() {
+        //PanGesture
+    }
     
     // MARK: - OpenGL Related
     var Vertices = [
@@ -301,8 +341,22 @@ class CameraViewController: UIViewController {
         glBindVertexArrayOES(0)
         glBindBuffer(GLenum(GL_ARRAY_BUFFER), 0)
         glBindBuffer(GLenum(GL_ELEMENT_ARRAY_BUFFER), 0)
-
     }
+    
+    struct SceneVertex {
+        var positionCoords: GLKVector3
+        var textureCoords: GLKVector2
+        
+    }
+    
+    func useTexture() {
+        
+//        let vertices: [SceneVertex] = [
+//            SceneVertex(positionCoords: GLKVector3(v: Float(-0.5), Float(-0.5), Float(0.0)), textureCoords: GLKVector2(v: Float(0.0), Float(0.0))),
+//            SceneVertex(positionCoords: GLKVector3(v: Float(0.5), Float(-0.5), Float(0.0)), textureCoords: GLKVector2(v: Float(1.0), Float(0.0))),
+//            SceneVertex(positionCoords: GLKVector3(v: Float(-0.5), Float(0.5), Float(0.0)), textureCoords: GLKVector2(v: Float(0.0), Float(1.0)))]
+    }
+    
     
 
 }
@@ -340,10 +394,6 @@ extension CameraViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         if eaglContext != EAGLContext.current() {
             EAGLContext.setCurrent(eaglContext)
         }
-        
-        
-
-        
         glClearColor(0.5, 0.5, 0.5, 1.0)
         glClear(GLbitfield(GL_COLOR_BUFFER_BIT))
         glEnable(GLenum(GL_BLEND))
@@ -352,8 +402,15 @@ extension CameraViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         if let ciImg = outputImg {
             ciContext.draw(ciImg, in: videoPreviewBounds, from: drawRect)
         }
+        
         createSquare()
         var effect = GLKBaseEffect()
+
+        if let cgImg = UIImage(named: "eggCake")?.cgImage, let textureInfo = try? GLKTextureLoader.texture(with: cgImg, options: nil) {
+            effect.texture2d0.name = textureInfo.name
+            effect.texture2d1.target = GLKTextureTarget(rawValue: textureInfo.target)!
+        }
+
         effect.prepareToDraw()
         glBindVertexArrayOES(vao);
         glDrawElements(GLenum(GL_TRIANGLES),     // 1

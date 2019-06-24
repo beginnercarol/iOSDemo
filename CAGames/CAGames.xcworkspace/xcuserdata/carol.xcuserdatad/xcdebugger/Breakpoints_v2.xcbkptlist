@@ -102,11 +102,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CAGames/CameraDemo/CameraViewController.swift"
-            timestampString = "580557025.548335"
+            timestampString = "580639910.5675091"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
             landmarkName = "takePhoto(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -118,11 +118,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CAGames/CameraDemo/CameraViewController.swift"
-            timestampString = "580557025.54889"
+            timestampString = "580639910.567978"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "311"
-            endingLineNumber = "311"
+            startingLineNumber = "366"
+            endingLineNumber = "366"
             landmarkName = "captureOutput(_:didOutput:from:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -134,11 +134,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CAGames/CameraDemo/CameraViewController.swift"
-            timestampString = "580557025.54933"
+            timestampString = "580639910.568306"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "220"
-            endingLineNumber = "220"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
             landmarkName = "focusGesture(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -150,11 +150,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CAGames/CameraDemo/CameraViewController.swift"
-            timestampString = "580557025.549747"
+            timestampString = "580639910.568628"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "225"
-            endingLineNumber = "225"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
             landmarkName = "focusAtPoint(withPoint:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -166,7 +166,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CAGames/CameraDemo/CameraFocusView.swift"
-            timestampString = "580531978.476223"
+            timestampString = "580639450.394886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
@@ -182,11 +182,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CAGames/CameraDemo/CameraViewController.swift"
-            timestampString = "580557025.550137"
+            timestampString = "580639910.5689501"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
             landmarkName = "focusAtPoint(withPoint:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -198,11 +198,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CAGames/CameraDemo/CameraViewController.swift"
-            timestampString = "580557025.550537"
+            timestampString = "580639910.56925"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
             landmarkName = "setupEAGLContext()"
             landmarkType = "7">
          </BreakpointContent>
@@ -214,11 +214,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CAGames/CameraDemo/CameraViewController.swift"
-            timestampString = "580557025.5509911"
+            timestampString = "580639910.569572"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "setupView()"
             landmarkType = "7">
          </BreakpointContent>

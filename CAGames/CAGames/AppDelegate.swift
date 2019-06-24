@@ -37,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let cameraVC = CameraViewController()
         cameraVC.tabBarItem = UITabBarItem(title: "Camera", image: nil, selectedImage: nil)
         
-        tabbarVC.viewControllers = [cameraVC]
+        tabbarVC.viewControllers = [runloopDemoVC, concentrationVC]
         window?.rootViewController = tabbarVC
         window?.makeKeyAndVisible()
         return true

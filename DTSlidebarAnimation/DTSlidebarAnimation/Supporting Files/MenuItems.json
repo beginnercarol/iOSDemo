@@ -1,0 +1,46 @@
+
+[ {
+    "imageName":"Smile",
+    
+    "colorArray":[249,84,7]
+},
+{
+    "imageName":"Coffee",
+    
+    "colorArray":[69,59,55]
+},
+{
+    "imageName":"Drinks",
+    
+    "colorArray":[249,194,7]
+},
+{
+    "imageName":"ThumbsUp",
+    
+    "colorArray":[32,188,32]
+},
+{
+    "imageName":"ThumbsDown",
+    
+    "colorArray":[207,34,156]
+},
+{
+    "imageName":"Raining",
+    
+    "colorArray":[14,88,149]
+},
+{
+    "imageName":"Clock",
+    
+    "colorArray":[15,193,231]
+},
+{
+    "imageName":"Coffee",
+    
+    "colorArray":[69,59,55]
+},
+{
+    "imageName":"Drinks",
+    
+    "colorArray":[249,194,7]
+},]
