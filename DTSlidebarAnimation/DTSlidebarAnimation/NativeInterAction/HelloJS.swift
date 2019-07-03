@@ -40,7 +40,5 @@ extension HelloJS: UIWebViewDelegate {
         NSLog("Finish Loading: \(title)")
     }
     
-    // Here to modify in experiment
-    
-    
+    // Now work in master larer conflict may happen
 }
