@@ -36,7 +36,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let nav = UINavigationController(rootViewController: photoScroll)
         nav.tabBarItem = UITabBarItem(title: "PhotoScroll", image: nil, selectedImage: nil)
         photoScroll.title = "Photo Scroll"
-        tabbarVC.viewControllers = [firstNav, nav]
+        
+        let nativeInteractionVC = InteractiveViewController()
+        nativeInteractionVC.tabBarItem = UITabBarItem(title: "Interac", image: nil, selectedImage: nil)
+        
+        let wkWebViewVC = DTJSViewController()
+        wkWebViewVC.tabBarItem = UITabBarItem(title: "WKWebView", image: nil, selectedImage: nil)
+        
+        tabbarVC.viewControllers = [wkWebViewVC, nav]
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white

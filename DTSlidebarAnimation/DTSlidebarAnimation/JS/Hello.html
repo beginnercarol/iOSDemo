@@ -1,0 +1,76 @@
+<html>
+    <head>
+
+    </head>
+    <style>
+        body {
+            background-color: aqua
+        }
+    </style>
+    <body>
+        <div id="addNewNodeTest">
+            <p id="p1"> 这是段落A。</p>
+            <p id="p2"> 这是段落B。</p>
+        </div>
+        <div class="page">
+            <button onclick="changeUILabelText()"> 改变UILabel文字 </button>
+            <button onclick="logText()"> NSLog打印文字 </button>
+        </div>
+        <button onclick="callNative()">Click to Interact</button>
+    </body>
+    <script>
+        var xmlHttp = null;
+        function callNative() {
+            console.log("callnative")
+            // document.location = "callNativeHello";
+            alert('666')
+            loadURL("https://www.callnative.com");
+        }
+        function loadURL(url) {
+            xmlhttp=null;
+            if (window.XMLHttpRequest) {// code for all new browsers
+                xmlhttp=new XMLHttpRequest();
+            }
+            else if (window.ActiveXObject) {// code for IE5 and IE6
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            if (xmlhttp!=null) {
+                xmlhttp.onreadystatechange=state_Change;
+                xmlhttp.open("GET",url,true);
+                xmlhttp.send(null);
+            }
+            else {
+                alert("Your browser does not support XMLHTTP.");
+            }
+        }
+        function state_Change(){
+            if (xmlhttp.readyState==4) {// 4 = "loaded"
+                if (xmlhttp.status==200)
+                    {// 200 = OK
+                    // ...our code here...
+                    }
+                else {
+                    alert("Problem retrieving XML data");
+                }
+            }
+        }
+
+        function forExp(value) {
+            console.log("forWxp" + value * 3)
+            return value * 3
+        }
+
+        function logText() {
+            window.webkit.messageHandlers.forExp.postMessage()
+        }
+  
+
+        function changeUILabelText() {
+            //"changelabeltext"是你自己定的一个协议。
+            //注url不要含大写字母，就算是大写字母，在`webView:shouldStartLoadWithRequest:navigationType:`代理方法里也会被替换成小写字母
+            var url = "changelabeltext:" + "我是改变后的文字";
+            //给document.location重新赋值就相当于webView加载一个新的URL，所以又会调用`webView:shouldStartLoadWithRequest:navigationType:`方法，然后就可以在这个代理方法里截获这个重定向请求
+            document.location = url;
+        }
+    </script>
+</html>

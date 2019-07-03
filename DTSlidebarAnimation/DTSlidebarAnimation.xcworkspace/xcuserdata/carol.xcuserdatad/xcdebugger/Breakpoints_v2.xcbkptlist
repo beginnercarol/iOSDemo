@@ -6,125 +6,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DTSlidebarAnimation/Photo Scroll/PhotoDetailViewController.swift"
-            timestampString = "582685092.310779"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DTSlidebarAnimation/Photo Scroll/PhotoScrollViewController.swift"
-            timestampString = "582685092.311147"
+            filePath = "DTSlidebarAnimation/NativeInterAction/DTJSViewController.swift"
+            timestampString = "583232181.161698"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "PhotoScrollViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DTSlidebarAnimation.PhotoScrollViewController.detailVC.getter : DTSlidebarAnimation.PhotoDetailViewController"
-                  moduleName = "DTSlidebarAnimation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/carol/iOSDemo/DTSlidebarAnimation/DTSlidebarAnimation/Photo%20Scroll/PhotoScrollViewController.swift"
-                  timestampString = "582622880.713058"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "114">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DTSlidebarAnimation.PhotoScrollViewController.detailVC.setter : DTSlidebarAnimation.PhotoDetailViewController"
-                  moduleName = "DTSlidebarAnimation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/carol/iOSDemo/DTSlidebarAnimation/DTSlidebarAnimation/Photo%20Scroll/PhotoScrollViewController.swift"
-                  timestampString = "582622880.71654"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "128">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DTSlidebarAnimation.PhotoScrollViewController.detailVC.modify : DTSlidebarAnimation.PhotoDetailViewController"
-                  moduleName = "DTSlidebarAnimation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/carol/iOSDemo/DTSlidebarAnimation/DTSlidebarAnimation/Photo%20Scroll/PhotoScrollViewController.swift"
-                  timestampString = "582622880.71987"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DTSlidebarAnimation.PhotoScrollViewController.detailVC.modify : DTSlidebarAnimation.PhotoDetailViewController with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "DTSlidebarAnimation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/carol/iOSDemo/DTSlidebarAnimation/DTSlidebarAnimation/Photo%20Scroll/PhotoScrollViewController.swift"
-                  timestampString = "582622880.7232701"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DTSlidebarAnimation.PhotoScrollViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; DTSlidebarAnimation.PhotoScrollViewController"
-                  moduleName = "DTSlidebarAnimation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/carol/iOSDemo/DTSlidebarAnimation/DTSlidebarAnimation/Photo%20Scroll/PhotoScrollViewController.swift"
-                  timestampString = "582622880.726722"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "654">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DTSlidebarAnimation.PhotoScrollViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;DTSlidebarAnimation.PhotoScrollViewController&gt;"
-                  moduleName = "DTSlidebarAnimation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/carol/iOSDemo/DTSlidebarAnimation/DTSlidebarAnimation/Photo%20Scroll/PhotoScrollViewController.swift"
-                  timestampString = "582622880.7304569"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "563">
-               </Location>
-            </Locations>
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -133,14 +25,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DTSlidebarAnimation/Photo Scroll/PhotoDetailViewController.swift"
-            timestampString = "582685092.3114001"
+            filePath = "DTSlidebarAnimation/NativeInterAction/DTJSViewController.swift"
+            timestampString = "583232181.16364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "setupImage(withImage:)"
-            landmarkType = "7">
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -149,14 +41,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DTSlidebarAnimation/Photo Scroll/PhotoScrollViewController.swift"
-            timestampString = "582685092.311483"
+            filePath = "DTSlidebarAnimation/NativeInterAction/DTJSViewController.swift"
+            timestampString = "583232181.164234"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
             endingLineNumber = "63"
-            landmarkName = "collectionView(_:didSelectItemAt:)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -165,14 +57,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DTSlidebarAnimation/Photo Scroll/PhotoScrollViewController.swift"
-            timestampString = "582685092.3115489"
+            filePath = "DTSlidebarAnimation/NativeInterAction/DTJSViewController.swift"
+            timestampString = "583232181.1647069"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "collectionView(_:didSelectItemAt:)"
-            landmarkType = "7">
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -181,14 +73,62 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DTSlidebarAnimation/Photo Scroll/PhotoDetailViewController.swift"
-            timestampString = "582685092.311609"
+            filePath = "DTSlidebarAnimation/NativeInterAction/DTJSViewController.swift"
+            timestampString = "583232181.165136"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "setupImage(withImage:)"
-            landmarkType = "7">
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DTSlidebarAnimation/NativeInterAction/DTJSViewController.swift"
+            timestampString = "583232181.165454"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DTSlidebarAnimation/NativeInterAction/DTJSViewController.swift"
+            timestampString = "583232181.165768"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DTSlidebarAnimation/NativeInterAction/DTJSViewController.swift"
+            timestampString = "583232181.166111"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
